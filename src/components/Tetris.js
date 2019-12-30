@@ -2,7 +2,7 @@ import React, { useState }  from 'react';
 
 import { createStage, checkCollision } from '../gameHelpers';
 
-import { StyledTetrisWrapper, StyledTetris, StyledTetrisTitle } from './styles/StyledTetris';
+import { StyledTetrisWrapper, StyledTetris, StyledTetrisTitle, StyledLink } from './styles/StyledTetris';
 
 import { useInterval } from '../hooks/useInterval';
 import { usePlayer } from '../hooks/usePlayer';
@@ -114,6 +114,9 @@ const Tetris = () => {
           <StartButton callback={startGame}/>
         </aside>
       </StyledTetris>
+      <StyledLink href="https://github.com/AntohaD/Tetris-react">
+        This project on GitHub
+      </StyledLink>
     </StyledTetrisWrapper>
   );
 };

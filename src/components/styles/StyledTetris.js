@@ -19,6 +19,15 @@ export const StyledTetrisTitle = styled.div`
   font-size: 2rem;
 `
 
+export const StyledLink = styled.a`
+  display: block;
+  padding: 40px;
+  color: white;
+  font-family: Pixel, Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  text-decoration: none;
+`
+
 export const StyledTetris = styled.div`
   display: flex;
   align-items: flex-start;
